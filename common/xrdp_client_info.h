@@ -145,6 +145,8 @@ struct xrdp_client_info
 
   int disableSSLv3; /* 0 = no, 1 = yes */
   char tls_ciphers[64];
+
+  int no_orders_supported;
 };
 
 #endif
